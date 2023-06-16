@@ -1,0 +1,40 @@
+[ {
+  "defaultTab" : "nodes",
+  "description" : "",
+  "executionEnabled" : true,
+  "id" : "68089fdc-2208-4fe8-8e98-b0165e455ce2",
+  "loglevel" : "INFO",
+  "name" : "echo linux",
+  "nodeFilterEditable" : false,
+  "nodefilters" : {
+    "dispatch" : {
+      "excludePrecedence" : true,
+      "keepgoing" : false,
+      "rankOrder" : "ascending",
+      "successOnEmptyNodeFilter" : false,
+      "threadcount" : "1"
+    },
+    "filter" : "Fahad-Amazon-Linux"
+  },
+  "nodesSelectedByDefault" : true,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "script" : "echo linux"
+    }, {
+      "configuration" : {
+        "apiKey" : "u+yUqMygkkXS8XpVyDLw",
+        "pd-id" : "${option.pd_incident_id}"
+      },
+      "nodeStep" : false,
+      "type" : "pagerduty-get-incident"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "68089fdc-2208-4fe8-8e98-b0165e455ce2"
+} ]
