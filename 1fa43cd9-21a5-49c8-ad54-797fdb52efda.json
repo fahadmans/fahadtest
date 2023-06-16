@@ -1,0 +1,22 @@
+[ {
+  "defaultTab" : "nodes",
+  "description" : "",
+  "executionEnabled" : true,
+  "id" : "1fa43cd9-21a5-49c8-ad54-797fdb52efda",
+  "loglevel" : "INFO",
+  "name" : "echo win",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "exec" : "echo a"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "1fa43cd9-21a5-49c8-ad54-797fdb52efda"
+} ]
