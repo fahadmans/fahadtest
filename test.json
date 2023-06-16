@@ -16,5 +16,5 @@
     } ],
     "keepgoing" : false,
     "strategy" : "node-first"
-  },
+  }
 } ]
