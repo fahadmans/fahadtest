@@ -3,7 +3,7 @@
   "description" : "",
   "executionEnabled" : true,
   "loglevel" : "INFO",
-  "name" : "echo test no id",
+  "name" : "echo test uuid",
   "nodeFilterEditable" : false,
   "plugins" : {
     "ExecutionLifecycle" : { }
