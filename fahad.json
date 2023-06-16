@@ -2,6 +2,7 @@
   "defaultTab" : "nodes",
   "description" : "",
   "executionEnabled" : true,
+  "id" : "fahad",
   "loglevel" : "INFO",
   "name" : "echo test uuid",
   "nodeFilterEditable" : false,
