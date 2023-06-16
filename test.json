@@ -16,5 +16,6 @@
     } ],
     "keepgoing" : false,
     "strategy" : "node-first"
-  }
+  },
+  "uuid" : "100010"
 } ]
