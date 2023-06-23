@@ -4,7 +4,7 @@
   "executionEnabled" : true,
   "id" : "7697d448-4c7c-46f9-921e-945b6c5e030f",
   "loglevel" : "INFO",
-  "name" : "test2",
+  "name" : "This_is_a_new_job",
   "nodeFilterEditable" : false,
   "plugins" : {
     "ExecutionLifecycle" : { }
