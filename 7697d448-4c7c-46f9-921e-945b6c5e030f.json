@@ -17,6 +17,8 @@
   "sequence" : {
     "commands" : [ {
       "exec" : "echo test"
+    }, {
+      "exec" : "echo test"
     } ],
     "keepgoing" : false,
     "strategy" : "node-first"
