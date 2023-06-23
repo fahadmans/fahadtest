@@ -1,0 +1,48 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>041c2b04-2ba3-4991-be3a-98f6499e9c63</id>
+    <loglevel>INFO</loglevel>
+    <name>Singtel Job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <runnerSelector>
+      <runnerFilterType>LOCAL_RUNNER</runnerFilterType>
+    </runnerSelector>
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='true' strategy='ruleset'>
+      <command>
+        <exec>asdasda</exec>
+        <plugins>
+          <LogFilter type='key-value-data-multilines'>
+            <config>
+              <captureMultipleKeysValues>false</captureMultipleKeysValues>
+              <hideOutput>false</hideOutput>
+              <logData>true</logData>
+              <name>Everything</name>
+              <regex>^(.*)$</regex>
+            </config>
+          </LogFilter>
+        </plugins>
+      </command>
+      <command>
+        <exec>echo test</exec>
+      </command>
+      <command>
+        <exec>echo ${data.Everything}</exec>
+      </command>
+      <pluginConfig>
+        <WorkflowStrategy>
+          <ruleset>
+            <rules><![CDATA[[*] run-in-sequence
+[3]if:data.Everything==/bin/sh:]]></rules>
+          </ruleset>
+        </WorkflowStrategy>
+      </pluginConfig>
+    </sequence>
+    <uuid>041c2b04-2ba3-4991-be3a-98f6499e9c63</uuid>
+  </job>
+</joblist>
