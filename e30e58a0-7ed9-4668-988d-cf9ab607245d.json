@@ -4,7 +4,7 @@
   "executionEnabled" : true,
   "id" : "e30e58a0-7ed9-4668-988d-cf9ab607245d",
   "loglevel" : "INFO",
-  "name" : "Testjob",
+  "name" : "Test",
   "nodeFilterEditable" : false,
   "plugins" : {
     "ExecutionLifecycle" : { }
