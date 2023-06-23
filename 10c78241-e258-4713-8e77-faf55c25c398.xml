@@ -16,7 +16,7 @@
     <schedules />
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>echo abc</exec>
+        <exec>echo test</exec>
       </command>
     </sequence>
     <uuid>10c78241-e258-4713-8e77-faf55c25c398</uuid>
