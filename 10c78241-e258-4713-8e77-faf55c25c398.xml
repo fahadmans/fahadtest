@@ -9,7 +9,8 @@
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <runnerSelector>
-      <runnerFilterType>LOCAL_RUNNER</runnerFilterType>
+      <filter>TEST</filter>
+      <runnerFilterType>TAG_FILTER_AND</runnerFilterType>
     </runnerSelector>
     <scheduleEnabled>true</scheduleEnabled>
     <schedules />
