@@ -5,7 +5,7 @@
     <executionEnabled>true</executionEnabled>
     <id>1fa43cd9-21a5-49c8-ad54-797fdb52efd0</id>
     <loglevel>INFO</loglevel>
-    <name>echo win test</name>
+    <name>github</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <scheduleEnabled>true</scheduleEnabled>
