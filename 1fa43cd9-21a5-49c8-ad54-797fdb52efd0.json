@@ -4,7 +4,7 @@
   "executionEnabled" : true,
   "id" : "1fa43cd9-21a5-49c8-ad54-797fdb52efd0",
   "loglevel" : "INFO",
-  "name" : "echo win test",
+  "name" : "github",
   "nodeFilterEditable" : false,
   "plugins" : {
     "ExecutionLifecycle" : { }
