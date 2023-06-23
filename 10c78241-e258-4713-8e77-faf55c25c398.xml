@@ -5,7 +5,7 @@
     <executionEnabled>true</executionEnabled>
     <id>10c78241-e258-4713-8e77-faf55c25c398</id>
     <loglevel>INFO</loglevel>
-    <name>test1</name>
+    <name>test</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <runnerSelector>
