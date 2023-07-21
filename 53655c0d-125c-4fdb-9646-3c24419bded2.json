@@ -1,0 +1,38 @@
+[ {
+  "defaultTab" : "summary",
+  "description" : "Copy a file from local to a FTP server",
+  "executionEnabled" : true,
+  "group" : "FileTransfer",
+  "id" : "53655c0d-125c-4fdb-9646-3c24419bded2",
+  "loglevel" : "INFO",
+  "name" : "FileTransferFtp",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "runnerSelector" : {
+    "runnerFilterMode" : "LOCAL",
+    "runnerFilterType" : "LOCAL_RUNNER"
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "configuration" : {
+        "backupDestinationFile" : "false",
+        "backupSourceFile" : "false",
+        "deleteFile" : "false",
+        "destAuthentication" : "privateKey",
+        "destKey" : "keys/AWS-FahadKey.pem",
+        "destURLString" : "sftp://ip-172-31-26-34.us-west-2.compute.internal:/home/ec2-user/test.txt",
+        "destUsername" : "ec2-user",
+        "sourceURLString" : "file:///var/lib/rundeck/test.txt"
+      },
+      "nodeStep" : true,
+      "type" : "filetransfer"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "53655c0d-125c-4fdb-9646-3c24419bded2"
+} ]
