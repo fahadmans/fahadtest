@@ -1,0 +1,40 @@
+[ {
+  "defaultTab" : "summary",
+  "description" : "Copy a file from SFTP server to rundeck",
+  "executionEnabled" : true,
+  "group" : "FileTransfer",
+  "id" : "ba4622d3-cdd9-4f59-bb6d-4bb59450c1d2",
+  "loglevel" : "INFO",
+  "name" : "FileTransferSftp",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "runnerSelector" : {
+    "runnerFilterMode" : "LOCAL",
+    "runnerFilterType" : "LOCAL_RUNNER"
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "script" : "echo line1\nsftp -b batchfile -i \"FahadKey.pem\" ec2-user@ip-172-31-26-34.us-west-2.compute.internal\necho line2\nls"
+    }, {
+      "configuration" : {
+        "backupDestinationFile" : "false",
+        "backupSourceFile" : "false",
+        "deleteFile" : "false",
+        "destURLString" : "file:///var/lib/rundeck/",
+        "sourceAuthentication" : "privateKey",
+        "sourceKey" : "keys/AWS-FahadKey.pem",
+        "sourceURLString" : "sftp://ip-172-31-26-34.us-west-2.compute.internal:/home/ec2-user/somefile.txt",
+        "sourceUsername" : "ec2-user"
+      },
+      "nodeStep" : true,
+      "type" : "filetransfer"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "ba4622d3-cdd9-4f59-bb6d-4bb59450c1d2"
+} ]
