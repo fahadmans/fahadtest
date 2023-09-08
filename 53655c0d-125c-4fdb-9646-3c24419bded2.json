@@ -1,6 +1,6 @@
 [ {
   "defaultTab" : "summary",
-  "description" : "Copy a file from local to a FTP server",
+  "description" : "Copy a file from local to a FTP serverv2",
   "executionEnabled" : true,
   "group" : "FileTransfer",
   "id" : "53655c0d-125c-4fdb-9646-3c24419bded2",
