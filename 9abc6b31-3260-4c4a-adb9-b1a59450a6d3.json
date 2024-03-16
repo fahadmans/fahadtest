@@ -4,7 +4,7 @@
   "executionEnabled" : true,
   "id" : "9abc6b31-3260-4c4a-adb9-b1a59450a6d3",
   "loglevel" : "DEBUG",
-  "name" : "Rundeck",
+  "name" : "Testbranch",
   "nodeFilterEditable" : false,
   "plugins" : {
     "ExecutionLifecycle" : { }
